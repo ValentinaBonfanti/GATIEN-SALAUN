@@ -49,6 +49,7 @@
     width: 100%;
   }
   nav h1 {
+   
     display: flex;
     justify-content: center;
     font-size: xx-large;
@@ -62,8 +63,10 @@
     justify-content: center;
     flex-direction: row;
     margin: 1rem;
+    scroll-behavior: smooth;
   }
-  nav ul li {
+  nav ul a {
+    text-decoration: none;
     font-size: large;
     font-family: 'Montserrat', sans-serif;
     justify-content: center;
@@ -72,17 +75,25 @@
     padding-right: 2rem;
     padding-left: 1rem;
     position: relative;
-    left: 100%;
+    left: 55%;
     color: rgb(220, 232, 234);
+  }
+  nav ul a:hover{
+    cursor: pointer;
   }
   footer {
     color: rgb(220, 232, 234);
-    background-color: rgb(32, 45, 55);
-    /* padding: 20px 0; */
-    border-radius: 10px;
+    background-color: rgb(39, 55, 68);
+    padding: 15px;
+    height: 15rem;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  footer div {
+    padding: 2rem;
+    font-size: medium;
   }
  /* */
   .home .intro {
@@ -92,6 +103,9 @@
     background-size: cover;
     height: 70vh;
     color: white;
+}
+.home{
+    scroll-behavior: smooth;
 }
   .home .intro h2 {
     padding-top: 25rem;
@@ -119,7 +133,7 @@
     width: 40vh;
     display: inline;
     margin-bottom: 10rem;
-    margin-left: 27rem;
+    margin-left: 25rem;
     background-color: #f2f2f3;
   }
   .home .music-images img{
