@@ -222,8 +222,8 @@
   }
   .home .actual2 img {
     width: 40vh;
-    margin: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
     border-radius: 5px;
     height: 30vh;
   }
@@ -237,7 +237,8 @@
     background-color: #f2f2f3;
   }
   .home .actual2 .actual2-text {
-    width: 65%;
+    width: 63%;
+    margin-left: 6rem;
   }
   .home .actual2 .actual2-text h3 {
     margin-bottom: 10px;
@@ -265,7 +266,8 @@
     line-height: 3;
  }
   .home .musica3-nueva .musica3-text{
-    width: 80%;
+    width: 75%;
+    margin-left: 5rem;
   }
   .home .musica3-nueva h3 {
     margin-top: 11px;
